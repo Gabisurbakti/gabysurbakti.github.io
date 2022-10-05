@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Registration</title>
+            <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+          <h1>Create Your Account </h1>
+            <form>
+    <form method="post" action="#">
+
+            </fieldset>
+
+            <fieldset style="width: 500px" color="#feadb9">
+                <legend>Personal Data</legend>
+                <table>
+            <tr>
+            <td><label for="Nama">Name :</label></td>
+            <td><input type="Nama" id="Nama" name="Nama"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" id="email" name="email"></td>
+                </tr>
+            <tr>
+                <td><label for="hp">Nomor Telepon :</label></td>
+                <td><input type="tel" name="hp" id="hp" pattern="+62 - [0-9]{3} - [0-9]{4} - [0-9]{3}" value="+62"></td>
+            </tr>
+            <tr>
+                <td><label for="Jenis Kelamin">Jenis Kelamin</label></td>
+                <td>
+                    <input type="radio"name="gender">Laki-Laki<br>
+                    <input type="radio"name="gender">Perempuan<br>
+                </td>
+                </tr>
+            <tr>
+                <td><label>Jumlah Tiket :</label></td>
+                <td><input type="number" min="1" max="10" name="" /></td>
+            </tr>
+           <tr>
+                <td><label for="seat choice">Seat Choice :</label>
+            <td><select><tb>
+                <option value="#"><Pilih Seat Choice></option>
+                <option value="Teknologi Informasi">VIP </option>
+                <option value="Ilmu Komputer">Gold </option>
+                <option value="Ilmu Komputer">Silver </option>
+                <option value="Ilmu Komputer">Bronze </option>
+            </select> </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                <label for="comments">Comments :</label>
+                </td>
+                <td valign="top">
+                <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                </td>
+                </table>
+
+            </fieldset> 
+                <button> Dapatkan Tiket! </button>
+                <p> Sudah punya akun?
+                  <a href="login.html">Login di sini</a>
+                </p>
+                <div class="social-icons" >
+                    <center>
+                    <a href="https://youtube.com/c/sayhivi "> <img src="https://th.bing.com/th/id/OIP.fug1GE1yrZBKb6hPiJEeEwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"width="40" height="40">
+                        <a href="https://instagram.com/gabysurbaktii_?igshid=YmMyMTA2M2Y="><img src="https://th.bing.com/th/id/OIP.M9mGM21UoE9leqW3HyUZ-gHaHa?w=209&h=208&c=7&r=0&o=5&dpr=1.5&pid=1.7"width="40" height="40">
+                    <a href=" https://www.facebook.com/sayhivi "><img src="data:image/jpeg;base64,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" width="40" height="40" ></center>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
