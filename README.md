@@ -1,2 +1,1 @@
-# gabysurbakti.github.io
-tugas2proweb
+# tugas2proweb
